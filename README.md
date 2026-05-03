@@ -1,2 +1,49 @@
-# customer-churn-prediction
-End-to-end ML project to predict customer churn and suggest retention strategies
+# 📊 Customer Churn Prediction System
+
+![Python](https://img.shields.io/badge/Python-3.9-blue)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange)
+![XGBoost](https://img.shields.io/badge/Model-XGBoost-green)
+![Streamlit](https://img.shields.io/badge/App-Streamlit-red)
+![Status](https://img.shields.io/badge/Project-Production%20Ready-brightgreen)
+
+An end-to-end Machine Learning system built to predict telecom customer churn and recommend data-driven retention strategies.
+
+## 🚀 Project Overview
+
+Customer churn directly impacts company revenue. This project analyzes customer behavior, billing patterns, service usage, and contract types to identify customers at high risk of leaving.
+
+Two classification models were trained and evaluated:
+- Logistic Regression  
+- XGBoost Classifier  
+
+The final solution includes a deployed Streamlit web application for real-time churn prediction.
+
+---
+
+## 🧠 Business Value
+
+✔ Identify high-risk customers early  
+✔ Enable targeted retention campaigns  
+✔ Reduce revenue loss  
+✔ Support data-driven decision making  
+
+---
+
+## 🛠 Tech Stack
+
+Python • Pandas • NumPy • Scikit-learn • XGBoost • Matplotlib • Seaborn • Streamlit  
+
+---
+
+## 📂 Dataset
+
+Telco Customer Churn Dataset  
+Source: https://www.kaggle.com/blastchar/telco-customer-churn  
+
+---
+
+## ▶️ Run Locally
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
