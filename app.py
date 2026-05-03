@@ -11,8 +11,8 @@ import os
 app = Flask(__name__)
 
 # Load model and scaler
-MODEL_PATH = os.path.join('..', 'models', 'best_model.pkl')
-SCALER_PATH = os.path.join('..', 'models', 'scaler.pkl')
+MODEL_PATH = os.path.join('models', 'best_model.pkl')
+SCALER_PATH = os.path.join('models', 'scaler.pkl')
 
 try:
     model = joblib.load(MODEL_PATH)
