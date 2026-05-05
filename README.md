@@ -41,18 +41,6 @@ Telco Customer Churn Dataset
 Source: https://www.kaggle.com/blastchar/telco-customer-churn  
 
 ---
-## 🤖 Machine Learning Modeling
-I trained two models to compare a baseline approach against a high-performance gradient boosting approach.
-
-| **Model**               | Accuracy | Precision | Recall | F1-Score |ROC-AUC|
-
-
-| **Logistic Regression** | 80%      | 0.65      | 0.55   | 0.60     |0.9    |
-| **XGBoost Classifier**  | 82%      | 0.68      | 0.58   | 0.62     |0.85   |
-
-**Why XGBoost?** Although accuracy is similar, XGBoost handled non-linear relationships in "Tenure" and "Monthly Charges" much better than Logistic Regression.
-
-
 
 ## 💡 Retention Strategies (Business Value)
 Based on the model's feature importance, I recommend the following actions:
