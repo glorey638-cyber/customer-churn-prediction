@@ -52,16 +52,6 @@ I trained two models to compare a baseline approach against a high-performance g
 **Why XGBoost?** Although accuracy is similar, XGBoost handled non-linear relationships in "Tenure" and "Monthly Charges" much better than Logistic Regression.
 
 
-## 📊 Key Insights from EDA
-To understand why customers leave, I analyzed usage patterns and billing data.
-
-| Churn Distribution | Impact of Contract Type |
-|---|---|
-| ![Churn Dist](15_tenure_analysis.png)  |![Contract](16_revenue_analysis.png)|![Contract](17_business_dashboard.png)
-
-> **Top Insight:** Customers on "Month-to-Month" contracts are 3x more likely to churn compared to those on "Two-year" contracts.
-> 
-
 
 ## 💡 Retention Strategies (Business Value)
 Based on the model's feature importance, I recommend the following actions:
@@ -77,7 +67,7 @@ Based on the model's feature importance, I recommend the following actions:
 1. **Clone the repo:**
    git clone https://github.com/glorey638-cyber/customer-churn-prediction.git
 
-2. ** Install dependencies:**
+2. **Install dependencies:**
    pip install -r requirements.txt
 
  3. **Explore the Analysis:**
