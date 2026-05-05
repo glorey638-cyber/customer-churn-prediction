@@ -41,9 +41,11 @@ Telco Customer Churn Dataset
 Source: https://www.kaggle.com/blastchar/telco-customer-churn  
 
 ---
+## 📊 Key Insights from EDA
+To understand why customers leave, I analyzed usage patterns and billing data.
 
-## ▶️ Run Locally
+| Churn Distribution | Impact of Contract Type |
+|---|---|
+| ![Churn Dist](assets/01_churn_distribution.png) | ![Contract](assets/02_churn_by_contract.png) |
 
-```bash
-pip install -r requirements.txt
-streamlit run app.py
+> **Top Insight:** Customers on "Month-to-Month" contracts are 3x more likely to churn compared to those on "Two-year" contracts.
