@@ -62,6 +62,18 @@ Based on the model's feature importance, I recommend the following actions:
 3. **Tech Support Upselling:** Churn was lower among users with "Tech Support" enabled. Bundle this service for high-risk customers.
 
 
+## 🤖 Machine Learning Modeling
+
+I trained two models to compare a baseline approach against a high-performance gradient boosting approach.
+
+| Model | Accuracy | Precision | Recall | F1-Score | ROC-AUC |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Logistic Regression** | 80% | 0.65 | 0.55 | 0.60 | 0.90 |
+| **XGBoost Classifier** | 82% | 0.68 | 0.58 | 0.62 | 0.85 |
+
+**Why XGBoost?** Although accuracy is similar, XGBoost handled non-linear relationships in "Tenure" and "Monthly Charges" much better than Logistic Regression.
+
+
 ### "How to Run"
 ## 🚀 Getting Started
 
